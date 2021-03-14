@@ -1,0 +1,33 @@
+{
+  "name": "utopicorm",
+  "version": "1.0.0",
+  "description": "Simple Orm solution to build MVC in nodejs simply",
+  "main": "index.js",
+  "scripts": {
+    "prepare": "npm run build",
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/studioutopico/utopicorm.git"
+  },
+  "keywords": [
+    "utopicorm",
+    "typescript",
+    "orm",
+    "studioutopico"
+  ],
+  "author": "studioutopico",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/studioutopico/utopicorm/issues"
+  },
+  "homepage": "https://github.com/studioutopico/utopicorm#readme",
+  "devDependencies": {
+    "typescript": "^4.2.3"
+  },
+  "dependencies": {
+    "@types/mysql2": "github:types/mysql2",
+    "@types/nanoid": "^2.1.0"
+  }
+}
